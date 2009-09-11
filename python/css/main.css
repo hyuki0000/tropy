@@ -1,0 +1,6 @@
+body{font-family:Verdana,sans-serif;margin:2% 20% 10% 20%;color:black;background-color:white;}
+input{font-family:Verdana,sans-serif;}
+#navi{text-align:right;}
+p{line-height:150%;}
+a{color:gray;background-color:white;text-decoration:none;}
+a:hover{text-decoration:underline;color:white;background-color:gray;}
