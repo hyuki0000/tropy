@@ -1,5 +1,8 @@
 function onLoad() {
-  document.getElementById('editarea').focus();
+  var editarea = document.getElementById('editarea');
+  if (editarea) {
+    editarea.focus();
+  }
   document.getElementById("navi").style.visibility = "hidden";
   setTimeout("onTimeout()", 2000);
 }
